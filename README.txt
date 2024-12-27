@@ -1,32 +1,17 @@
+# Independent project fron hkust
 
-                          Apache Maven
+A realization based on Cquirrel Algorithm. Excecute query 12 on TPC-H
 
-  What is it?
-  -----------
+## Version Configuration
 
-  Maven is a software project management and comprehension tool. Based on
-  the concept of a Project Object Model (POM), Maven can manage a project's
-  build, reporting and documentation from a central piece of information.
+This project uses the following versions for key dependencies:
 
-  Documentation
-  -------------
+- Java: JDK 21
+- Apache Flink: 1.18.0
+- Maven: 3.8.1 (or the version you are using)
 
-  The most up-to-date documentation can be found at https://maven.apache.org/.
-
-  Release Notes
-  -------------
-
-  The full list of changes, system requirements and related can be found at https://maven.apache.org/docs/history.html.
-
-  Installing Maven
-  ----------------
-
-  For complete documentation see https://maven.apache.org/download.html#Installation
-
-  Licensing
-  ---------
-
-  Please see the file called LICENSE.
+## Building the Project
+use maven to get jar package
 
   Maven URLS
   ----------
@@ -39,3 +24,17 @@
   Issue Tracking:     https://issues.apache.org/jira/browse/MNG
   Wiki:               https://cwiki.apache.org/confluence/display/MAVEN/
   Available Plugins:  https://maven.apache.org/plugins/
+
+## Algorithm Reference
+
+Demo:https://cse.hkust.edu.hk/~yike/Cquirrel.pdf
+
+Full Paper and Algorithm details:https://cse.hkust.edu.hk/~yike/sigmod20.pdf
+
+## File
+
+The flink file contains the algorithm main code
+
+The data file contains the TPC-H source data and preprocessing of the data
+
+The query file contains the query 12 code and the corectness check of the code
