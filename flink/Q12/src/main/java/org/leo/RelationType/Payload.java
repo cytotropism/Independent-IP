@@ -1,4 +1,4 @@
-package com.charles.RelationType;
+package org.leo.RelationType;
 
 import java.util.*;
 

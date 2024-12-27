@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Q3AggregateProcessFunction extends KeyedProcessFunction<Object, Payload, Payload> {
+public class AggregateProcessFunction extends KeyedProcessFunction<Object, Payload, Payload> {
     ValueState<Double> preValue;
 
     List<String> outputNames= Arrays.asList("ORDERKEY","O_ORDERDATE","O_SHIPPRIORITY");
